@@ -1,0 +1,31 @@
+fastapi
+uvicorn[standard]
+python-multipart #for file uploads
+
+# LangcChain dependencies
+langchain
+langchain-community
+langchain-core
+langchain-groq
+
+#Vector store
+pinecone
+
+#Embeddings
+langchain-google-genai
+
+#PDF-Parsing
+PyPDF    
+
+#Environment variables
+python-dotenv
+
+#Typing & Utilities
+pydantic
+requests
+tqdm
+
+#Logging
+loguru
+
+
