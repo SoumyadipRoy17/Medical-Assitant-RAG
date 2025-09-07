@@ -5,7 +5,7 @@ from components.chatUI import render_chat
 
 
 st.set_page_config(page_title="AI Medical Assistant",layout="wide")
-st.title(" 🩺 Medical Assistant Chatbot")
+st.title("📝 Document Q & A Assistant Chatbot")
 
 
 render_uploader()
