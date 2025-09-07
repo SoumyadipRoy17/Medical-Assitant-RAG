@@ -10,7 +10,7 @@ GROQ_API_KEY = os.getenv("GROQ_API_KEY")
 def get_llm_chain(retriever):
     llm = ChatGroq(
         groq_api_key=GROQ_API_KEY,
-        model="llama3-70b-8192",
+        model="meta-llama/llama-prompt-guard-2-22m",
     )
 
     prompt = PromptTemplate(
